@@ -11,8 +11,9 @@ header{
 	background-repeat: no-repeat;
 	box-sizing: border-box;
 	z-index: 9;
+	padding-top: 20px;
 }
-#menu-b{
+/*#menu-b{
 	background-color: transparent;
 	border: none;
 	border-radius: 0;
@@ -21,9 +22,16 @@ header{
 }
 #menu-b a{
 	color: #fff;
+}*/
+#menu-hamb{
+	color: #fff;
+	font-size: 25px;
+}
+.img-logo{
+	display: none;
 }
 .contLogo{
-	padding-top: 13%;
+	padding-top: 10%;
 }
 .bloqueUno{
 	width: 100%;
