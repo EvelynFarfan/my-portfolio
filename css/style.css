@@ -23,6 +23,10 @@ header{
 #menu-b a{
 	color: #fff;
 }*/
+.menu{
+	position: fixed;
+	width: 100%;
+}
 #menu-hamb{
 	color: #fff;
 	font-size: 25px;
@@ -40,8 +44,8 @@ header{
 }
 .bloqueDos{
 	width: 100%;
- 	padding: 30% 0;
-  background-color: #74e0c1;
+ 	padding: 10% 0;
+  background-color: #00918C;
 }
 #img-logo{
 	display: inline-block;
@@ -51,9 +55,35 @@ header{
 	position: fixed;
 	z-index: 9;
 }
-.sub{
+#cont-sub{
+	margin-bottom: 5%;
+}
+.sub, .sub2{
 	font-family:'PrestigeEliteStd-Bd', Sans-Serif;
 	font-size: 30px;
-	color: #00918C;
 	margin-top: -10px;
+}
+.sub{
+	color: #00918C;
+}
+.sub2{
+	color: #fff;
+}
+#c-p{
+	margin-bottom: 20px;
+}
+/*-----------------------------------------------*/
+.zonaMenu {
+	width:300px;
+	height:100%;
+	background-color: green;
+	position: fixed;
+	left:-300px;
+	transition: left 1s;
+	top: 0;
+	z-index: 9;
+}
+
+.mostrarMenu {
+	left:0;
 }
