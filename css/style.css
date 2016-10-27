@@ -51,8 +51,8 @@ header{
 }
 .sub, .sub2{
 	font-family:'PrestigeEliteStd-Bd', Sans-Serif;
-	font-size: 30px;
-	margin-top: -10px;
+	font-size: 230%;
+  margin-top: -21px;
 }
 .sub{
 	color: #2C3D4F;
