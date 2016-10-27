@@ -12,17 +12,8 @@ header{
 	box-sizing: border-box;
 	z-index: 9;
 	padding-top: 20px;
+	background-attachment: fixed;
 }
-/*#menu-b{
-	background-color: transparent;
-	border: none;
-	border-radius: 0;
-	color: #eee;
-	z-index: 9;
-}
-#menu-b a{
-	color: #fff;
-}*/
 .menu{
 	position: fixed;
 	width: 100%;
@@ -45,7 +36,7 @@ header{
 .bloqueDos{
 	width: 100%;
  	padding: 10% 0;
-  background-color: #00918C;
+  background-color: #2C3D4F;
 }
 #img-logo{
 	display: inline-block;
@@ -64,13 +55,34 @@ header{
 	margin-top: -10px;
 }
 .sub{
-	color: #00918C;
+	color: #2C3D4F;
 }
 .sub2{
 	color: #fff;
 }
 #c-p{
 	margin-bottom: 20px;
+}
+.bloqueTres{
+	width: 100%;
+ 	padding: 10% 0;
+}
+.bloqueCuatro{
+	width: 100%;
+ 	padding: 8% 0;
+  background-color: #bababa;
+}
+.form{
+	width: 100%;
+	margin-bottom: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+footer{
+	width: 100%;
+	padding: 5%;
+	background-color: #2C3D4F;
 }
 /*-----------------------------------------------*/
 .zonaMenu {
@@ -83,7 +95,6 @@ header{
 	top: 0;
 	z-index: 9;
 }
-
 .mostrarMenu {
 	left:0;
 }
