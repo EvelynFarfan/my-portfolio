@@ -8,7 +8,7 @@
 //   }
 // });
 
-$(".menu").on("click", function(){
+$("#menu-hamb").on("click", function(){
 	/*Esto se va a ejecutar cuando alguien
 		haga clic sobre el icono del menu
 
@@ -16,5 +16,7 @@ $(".menu").on("click", function(){
 		removeClass para remover una clase
 		toggleClass para alternar una clase
 	*/
-	$(".zonaMenu").toggleClass("mostrarMenu");	
+	$(".zonaMenu").toggleClass("mostrarMenu");
+	$("#menu-none").css("display", "none");
+		
 })
