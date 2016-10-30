@@ -5,7 +5,7 @@ body{
 header{
 	width: 100%;
 	height: 100vh;
-	background-image: url(../img/header4.jpg);
+	background-image: url(../img/header.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -33,10 +33,13 @@ header{
 	padding: 10% 0;
 	color: #7a7a7a;
 }
+.skills{
+	padding: 7% 0;
+	background-color: #2C3D4F;
+}
 .bloqueDos{
 	width: 100%;
- 	padding: 10% 0;
-  background-color: #2C3D4F;
+ 	padding: 7% 0;
 }
 #img-logo{
 	display: inline-block;
@@ -51,7 +54,7 @@ header{
 }
 .sub, .sub2{
 	font-family:'PrestigeEliteStd-Bd', Sans-Serif;
-	font-size: 230%;
+	font-size: 35px;
   margin-top: -21px;
 }
 .sub{
@@ -61,7 +64,17 @@ header{
 	color: #fff;
 }
 #c-p{
+	border-radius: 5px;
 	margin-bottom: 20px;
+}
+.imgProjecto{
+	border-radius: 5px;
+}
+.colorHover{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(44, 61, 79, 0.8);
+
 }
 .bloqueTres{
 	width: 100%;
@@ -84,6 +97,12 @@ footer{
 	padding: 5%;
 	background-color: #2C3D4F;
 }
+#contModal{
+	width: 80%;
+}
+#contProject{
+	width: 100%;
+}
 /*-----------------------------------------------*/
 .zonaMenu {
 	width:300px;
@@ -97,4 +116,77 @@ footer{
 }
 .mostrarMenu {
 	left:0;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#fff;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
 }
