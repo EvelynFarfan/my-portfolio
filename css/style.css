@@ -225,4 +225,11 @@ footer{
 	.bloqueUno, .skills, .bloqueDos, .footer{
 		padding: 10% 0;
 	}
+	#botones{
+	  padding: 10px 15px;
+	}
+	.linkProjects{
+		margin-bottom: 10%;
+	}
+
 }
