@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	position: relative
 }
 header{
 	width: 100%;
@@ -14,16 +15,12 @@ header{
 	padding-top: 20px;
 	background-attachment: fixed;
 }
-.menu{
-	position: fixed;
-	width: 100%;
-}
-#menu-hamb{
-	color: #fff;
-	font-size: 25px;
-}
 .img-logo{
 	display: none;
+}
+#logoH{
+	width: 75%;
+  margin-top: -5px;
 }
 .contLogo{
 	padding-top: 10%;

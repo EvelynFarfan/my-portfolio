@@ -17,6 +17,4 @@ $("#menu-hamb").on("click", function(){
 		toggleClass para alternar una clase
 	*/
 	$(".zonaMenu").toggleClass("mostrarMenu");
-	$("#menu-none").css("display", "none");
-		
 })

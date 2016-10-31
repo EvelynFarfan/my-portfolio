@@ -10,9 +10,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
-<body>
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="50">
 
-	<div class="zonaMenu">
+<!-- 	<div class="zonaMenu">
 		 	<ul>
 		 		<li>
 		 			<a href="historia.html" class="historia">
@@ -45,34 +45,31 @@
 		 			</a>
 		 		</li>	
 		 	</ul>
-	</div>
+	</div> -->
 
 	<header>	
 		<div>
-			<nav class="navbar navbar-default navbar-fixed-top">
+			<nav id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
 			  <div class="container">
-			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
-			      <button type="button" id="menu-hamb" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="#">Brand</a>
+			      <a id="logo-nav" class="navbar-brand" href="#header"><img id="logoH" class="img-responsive" src="img/logoh2.png" alt="img-logo"></a>
 			    </div>
-
-			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul id="menu-none" class="nav navbar-nav navbar-right">
-			        <li><a href="#">Inicio</a></li>
-			       	<li><a href="#">Sobre Mí</a></li>
-			       	<li><a href="#">Habilidades</a></li>
-			       	<li><a href="#">Proyectos</a></li>
-			       	<li><a href="#">Contacto</a></li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
+			      <ul class="nav navbar-nav navbar-right">
+			        <li class="active"><a id="menu_a" href="#">HOME</a></li>
+			        <li><a id="menu_a" href="#seccion1">SOBRE MÍ</a></li>
+			        <li><a id="menu_a" href="#seccion2">HABILIDADES</a></li>
+			        <li><a id="menu_a" href="#seccion3">PORTAFOLIO</a></li>
+			        <li><a id="menu_a" href="#seccion4">CONTACTO</a></li>
+						</ul>
+			    </div>
+			  </div>
 			</nav>
 		</div>
 		<div class="contLogo">
@@ -86,7 +83,7 @@
 		</div>
 	</header>
 
-	<section class="bloqueUno">
+	<section id="seccion1" class="bloqueUno">
 		<div class="contenido">
 			<div class="container">
 				<div id="cont-sub" class="row">
@@ -113,7 +110,7 @@
 		</div>
 	</section>
 
-	<section class="skills">
+	<section id="seccion2" class="skills">
 		<div class="container">
 			<div id="cont-sub" class="row">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img class="img-responsive" src="img/line-white.png" alt="line-color"></div>
@@ -174,7 +171,7 @@
 		</div>
 	</section>
 
-	<section class="bloqueDos ">
+	<section id="seccion3" class="bloqueDos ">
 		<div class="container">
 			<div id="cont-sub" class="row">
 					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img class="img-responsive" src="img/line-color.png" alt="line-color"></div>
@@ -212,7 +209,7 @@
 		</div>
 	</section>
 
-	<footer>
+	<footer id="seccion4">
 		<!-- <div class="container">
 			<div id="cont-sub" class="row">
 					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><img class="img-responsive" src="img/line-white.png" alt="line-color"></div>
