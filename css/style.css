@@ -15,7 +15,7 @@ header{
 	padding-top: 20px;
 	background-attachment: fixed;
 }
-.img-logo{
+#menu{
 	display: none;
 }
 #logoH{
@@ -32,7 +32,7 @@ header{
 }
 .skills{
 	padding: 7% 0;
-	background-color: #2C3D4F;
+	background-color: #69b3b9;
 }
 .bloqueDos{
 	width: 100%;
@@ -55,7 +55,7 @@ header{
   margin-top: -21px;
 }
 .sub{
-	color: #2C3D4F;
+	color: #69b3b9;
 }
 .sub2{
 	color: #fff;
@@ -76,11 +76,6 @@ header{
 	width: 100%;
  	padding: 10% 0;
 }
-.bloqueCuatro{
-	width: 100%;
- 	padding: 8% 0;
-  background-color: #bababa;
-}
 .form{
 	width: 100%;
 	margin-bottom: 10px;
@@ -91,7 +86,7 @@ header{
 footer{
 	width: 100%;
 	padding: 5%;
-	background-color: #2C3D4F;
+	background-color: #d3d3d3;
 }
 #contModal{
 	width: 80%;
