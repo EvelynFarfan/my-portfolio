@@ -52,6 +52,19 @@ header{
 	padding: 10% 0;
 	background-color: #69b3b9;
 }
+#botones{
+	color: #fff;
+  background-color: #69b3b9;
+  padding: 10px 40px;
+  text-align: left;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  border-radius: 5px; 
+}
+#botones:hover{
+	background-color: #4CA3A5;
+	text-decoration: none;
+}
 .bloqueDos{
 	width: 100%;
  	padding: 6% 0;
@@ -63,9 +76,6 @@ header{
 	width: 100%;
 	position: fixed;
 	z-index: 9;
-}
-#cont-sub{
-	margin-bottom: 5%;
 }
 .sub, .sub2{
 	font-family:'PrestigeEliteStd-Bd', Sans-Serif;
@@ -82,8 +92,11 @@ header{
 	border-radius: 5px;
 	margin-bottom: 20px;
 }
-.imgProjecto{
+.imgProyecto, .img-proyecto{
 	border-radius: 5px;
+}
+.img-proyecto{
+	margin-bottom: 20px;
 }
 .colorHover{
 	width: 100%;
@@ -130,6 +143,9 @@ footer{
 	font-family:'PrestigeEliteStd-Bd', Sans-Serif;
 	font-size: 18px;
 	color: #a0a0a0;
+}
+.explicacion{
+	margin-bottom: 20px;
 }
 /*-----------------------------------------------*/
 .skillbar {
