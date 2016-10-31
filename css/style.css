@@ -27,16 +27,24 @@ header{
 }
 .bloqueUno{
 	width: 100%;
-	padding: 10% 0;
+	padding: 6% 0;
 	color: #7a7a7a;
 }
+.contTituloColor{
+	margin: 0 0 5% 0;
+  border-bottom: 1px solid #69b3b9;
+}
+.contTituloWhite{
+	margin: 0 0 5% 0;
+  border-bottom: 1px solid #fff;
+}
 .skills{
-	padding: 7% 0;
+	padding: 10% 0;
 	background-color: #69b3b9;
 }
 .bloqueDos{
 	width: 100%;
- 	padding: 7% 0;
+ 	padding: 6% 0;
 }
 #img-logo{
 	display: inline-block;
@@ -74,7 +82,7 @@ header{
 }
 .bloqueTres{
 	width: 100%;
- 	padding: 10% 0;
+ 	padding: 6% 0;
 }
 .form{
 	width: 100%;
@@ -88,6 +96,14 @@ footer{
 	padding: 5%;
 	background-color: #d3d3d3;
 }
+.iconRedes{
+	color: gray;
+	font-size: 40px;
+}
+.iconRedes:hover{
+	color: #4ca3a5;
+}
+/*-----------------------------------------------*/
 #contModal{
 	width: 80%;
 }
@@ -106,20 +122,6 @@ footer{
 	color: #a0a0a0;
 }
 /*-----------------------------------------------*/
-.zonaMenu {
-	width:50%;
-	height:100%;
-	background-color: #eee;
-	position: fixed;
-	left:-50%;
-	transition: left 1s;
-	top: 52px;
-	z-index: 9;
-	padding-top: 40px;
-}
-.mostrarMenu {
-	left:0;
-}
 .skillbar {
 	position:relative;
 	display:block;
@@ -193,5 +195,8 @@ footer{
 	#contModal{
 		width: 80%;
     margin: 20px auto;
+	}
+	.bloqueUno, .skills, .bloqueDos, .footer{
+		padding: 10% 0;
 	}
 }
