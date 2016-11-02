@@ -107,24 +107,42 @@ header{
 	width: 100%;
  	padding: 6% 0;
 }
-.form{
-	width: 100%;
-	margin-bottom: 10px;
-	border: 1px solid transparent;
-	border-radius: 5px;
-	padding-left: 10px;
-}
-footer{
-	width: 100%;
-	padding: 5%;
-	background-color: #d3d3d3;
+/*-----------------------------------------------*/
+.contacto{
+ padding: 7% 0;
+ background-color: #69b3b9;
 }
 .iconRedes{
-	color: gray;
+	color: white;
 	font-size: 40px;
 }
 .iconRedes:hover{
 	color: #4ca3a5;
+}
+#botones2{
+	color: #69b3b9 ;
+  background-color: #fff;
+  padding: 10px 40px;
+  text-align: left;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  border-radius: 5px; 
+}
+#botones2:hover{
+	background-color: #fff;
+	text-decoration: none;
+}
+.email{
+	color: #fff;
+	font-family: Arial;
+	margin-left: 8px; 
+}
+/*-----------------------------------------------*/
+footer{
+	width: 100%;
+	padding: 2% 0 1% 0;
+	background-color: #d3d3d3;
+	color: gray;
 }
 /*-----------------------------------------------*/
 #contModal{
@@ -136,16 +154,44 @@ footer{
 .tituloProyecto{
 	font-family: 'PrestigeEliteStd-Bd', Sans-Serif;
   font-size: 25px;
-  color: #223c4c;
+  color: #69b3b9;
   margin: 0 0 0 3%;
 }
 .tituloDescripcion{
 	font-family:'PrestigeEliteStd-Bd', Sans-Serif;
 	font-size: 18px;
-	color: #a0a0a0;
+	color: gray;
 }
 .explicacion{
 	margin-bottom: 20px;
+	font-size: 15px;
+	color: #a0a0a0;
+}
+.herramientas{
+	margin-bottom: 30px;
+}
+.iconHerramienta{
+	color: gray;
+	font-size: 35px;
+}
+.bootstrap{
+	font-weight: bold;
+  font-family: inherit;
+}
+.html:hover{
+	color: #E44D26;
+}
+.css:hover{
+	color: #0270BB;
+}
+.bootstrap:hover{
+	color: #6F43A2;
+}
+.js:hover{
+	color: #D6BA33;
+}
+.jq:hover{
+	color: #0868AC;
 }
 /*-----------------------------------------------*/
 .skillbar {
