@@ -271,6 +271,20 @@ footer{
 	color:rgba(0, 0, 0, 0.4);
 }
 
+@media (min-width: 200px) and (max-width: 500px){
+	.contLogo {
+    padding-top: 27%;
+	}
+	.scroll {
+    margin-top: 40%;
+	}
+	.bloqueUno,, .bloqueDos, .footer{
+		padding: 15% 0;
+	}
+	.contTituloColor, .contTituloWhite, .contTituloGray{
+		margin: 0 0 15% 0;
+	}
+}
 @media (min-width: 200px) and (max-width: 770px) {
 	body{
 		text-align: center;
@@ -280,7 +294,7 @@ footer{
     margin: 20px auto;
 	}
 	.bloqueUno, .skills, .bloqueDos, .footer{
-		padding: 10% 0;
+		padding: 15% 0;
 	}
 	#botones{
 	  padding: 10px 15px;
