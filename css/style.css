@@ -84,6 +84,11 @@ header{
 	width: 100%;
  	padding: 6% 0;
 }
+.enlace-proyecto:hover{
+	width: 100%;
+	background-color: blue;
+}
+
 #img-logo{
 	display: inline-block;
 }
