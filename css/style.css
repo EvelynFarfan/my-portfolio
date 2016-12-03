@@ -133,7 +133,7 @@ header{
 }
 .iconRedes{
 	color: gray;
-	font-size: 30px;
+	font-size: 45px;
 	margin: 0 5px;
 }
 #botones2{
@@ -169,6 +169,17 @@ footer{
 	padding: 3% 0;
 	background-color: #d3d3d3;
 	color: gray;
+}
+.copyright{
+	margin:0;
+	padding: 0;
+}
+.footer2{
+	text-align: center;
+	width: 100%;
+	padding: 18px 0 10px 0;
+	background-color: #808080;
+	color: #eee;
 }
 /*-----------------------------------------------*/
 #contModal{
