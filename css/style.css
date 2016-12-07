@@ -82,7 +82,7 @@ header{
 }
 .bloqueDos{
 	width: 100%;
- 	padding: 6% 0;
+	padding: 6% 0;
 }
 .enlace-proyecto:hover{
 	width: 100%;
@@ -124,7 +124,7 @@ header{
 }
 .bloqueTres{
 	width: 100%;
- 	padding: 6% 0;
+	padding: 6% 0;
 }
 /*-----------------------------------------------*/
 .contacto{
@@ -135,6 +135,9 @@ header{
 	color: gray;
 	font-size: 45px;
 	margin: 0 5px;
+}
+.iconRedes:hover{
+	color: #4CA3A5;
 }
 #botones2{
 	color: #69b3b9 ;
@@ -166,7 +169,7 @@ header{
 /*-----------------------------------------------*/
 footer{
 	width: 100%;
-	padding: 3% 0;
+	padding: 5% 0;
 	background-color: #d3d3d3;
 	color: gray;
 }
@@ -174,12 +177,23 @@ footer{
 	margin:0;
 	padding: 0;
 }
+.email-footer{
+	font-size: 17px;
+}
 .footer2{
 	text-align: center;
 	width: 100%;
 	padding: 18px 0 10px 0;
 	background-color: #808080;
 	color: #eee;
+}
+.contTitulogray{
+	color: gray;
+	border-bottom: 1px solid #808080;
+	margin-bottom: 50px;
+}
+.sub3{
+	color: #808080;
 }
 /*-----------------------------------------------*/
 #contModal{
@@ -302,10 +316,10 @@ footer{
 
 @media (min-width: 200px) and (max-width: 500px){
 	.contLogo {
-    padding-top: 27%;
+	padding-top: 27%;
 	}
 	.scroll {
-    margin-top: 40%;
+	margin-top: 40%;
 	}
 	.bloqueUno,, .bloqueDos, .footer{
 		padding: 15% 0;
@@ -320,7 +334,7 @@ footer{
 	}
 	#contModal{
 		width: 80%;
-    margin: 20px auto;
+	margin: 20px auto;
 	}
 	.bloqueUno, .skills, .bloqueDos, .footer{
 		padding: 15% 0;
